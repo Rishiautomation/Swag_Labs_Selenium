@@ -18,7 +18,7 @@ public class LoginTest extends BaseClass {
 	public void LoginFailureTest() {
 		LoginPage lp = new LoginPage();
 		lp.LoginFunction("standard_user", "1234");
-		lp.LoginFaliure("Epic sadface:  and password do not match any user in this service");
+		lp.LoginFaliure("Epic sadface: Username and password do not match any user in this service");
 	}
 	
 	@Test
